@@ -18,7 +18,7 @@
     background-color: blue;
     position: fixed;
     bottom: 0px;
-    right: 20px;
+    top: 0px;
 }
 .green-box{
     background-color: green;
