@@ -5,21 +5,20 @@
     border: 1px solid black;
     padding: 20px;
     width: 400px;
+    position: relative;
 }
 .red-box{
     background-color: red;
-    position: relative;
-    top: 20px;
-    left: 260px;
+
     /*bottom: 400px; No funciona por la función estática*/
 
 }
 /*Item con posicionamiento relativo*/
 .blue-box{
     background-color: blue;
-    position: relative;
-    top: 30px;
-    left: 160px;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
 }
 .green-box{
     background-color: green;
